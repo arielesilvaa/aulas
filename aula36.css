@@ -11,16 +11,17 @@ main {
 }
 button {
     width: 150px;
-    height: 50px;
+    height: 40px;
     background-color: rgb(237, 39, 217);
     color: #fff;
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
 }
-.cursor {
+.curso {
     display: flex;
     justify-content: center;
+    width: 200px;
     border: 4px solide #888;
     border-radius: 10px;
     padding: 10px;
@@ -28,7 +29,7 @@ button {
     cursor: pointer;
 
 }
-.destaque {
+.selecionado {
     background-color: #800 !important;
     color: #fff !important;
     border-color: #f00 !important;
@@ -49,7 +50,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: px5;
+    margin: 5px;
     height: 500px;
     width: 300px;
 }
